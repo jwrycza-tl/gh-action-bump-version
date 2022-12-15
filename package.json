@@ -1,29 +1,24 @@
 {
   "name": "gh-action-bump-version",
-  "version": "7.1.2",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phips28/gh-action-bump-version.git"
+    "url": "git+https://github.com/jwrycza-tl/gh-action-bump-version.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jakub Wrycza <jwrycza@transactionlink.io>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/phips28/gh-action-bump-version/issues"
+    "url": "https://github.com/jwrycza-tl/gh-action-bump-version/issues"
   },
-  "homepage": "https://github.com/phips28/gh-action-bump-version#readme",
+  "homepage": "https://github.com/jwrycza-tl/gh-action-bump-version#readme",
   "private": true,
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node ./script.js",
     "test": "jest"
   },
-  "dependencies": {
-    "actions-toolkit": "^2.2.0",
-    "yargs": "^15.3.1"
-  },
   "devDependencies": {
-    "jest": "^25.2.7",
-    "standard": "^14.3.3"
+    "actions-toolkit": "^6.0.1"
   }
 }
